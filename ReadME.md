@@ -33,7 +33,6 @@
 
 ## 4.Use cv2 detect face(test image)
 * Use cv2.CascadeClassifier to detect the face image.
-* 
 
 		face_cascade = cv2.CascadeClassifier('C:/Anaconda/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml')
 		faces = face_cascade.detectMultiScale(img, 1.3, 5)
